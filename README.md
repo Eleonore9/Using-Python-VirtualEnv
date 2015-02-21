@@ -39,5 +39,19 @@ me configure and use them!
 
 My .bashrc file now looks like that:
 ![My .bashrc file](https://raw.github.com/eleonore9/using-python-virtualenv/master/img/bashrc_virtenvs.png)
+
 I created ~/virtenvs/ and ~/Projects-Active/ directories
 and applied the changes with ```source ~/.bashrc```.
+
+Useful virtualenvwrapper commands:
+------
+
+For most of what you'll need to do, those few
+commands are enough:
+
+* mkvirtualenv env_name -> creates the virtualenv env_name
+* workon -> lists all the virtualenvs created
+* pip list -> lists of packages installed
+* deactivate -> leaves a virtualenv
+* workon env_name -> switches to env_name virtualenv
+* rmvirtualenv env_name -> deletes the virtualenv
