@@ -1,7 +1,7 @@
-Hooray for Python Virtualenvs!
+Hooray for Python virtualenv!
 =========
 
-Virtualenvs are for all kind of projects!
+virtualenv is for all kind of projects!
 -----
 
 Virtual environments are super useful!
@@ -19,7 +19,7 @@ hard to use. But I tried virtualenvwrapper and
 I'm not going back!
 
 
-What's it all about? 
+What is it all about? 
 ----
 
 If you wonder what virtualenv is and whether you need to use it for
@@ -38,6 +38,7 @@ And then I found a [nice blog post] () that helped
 me configure and use them!
 
 My .bashrc file now looks like that:
+
 ![My .bashrc file](https://raw.github.com/eleonore9/using-python-virtualenv/master/img/bashrc_virtenvs.png)
 
 I created ~/virtenvs/ and ~/Projects-Active/ directories
@@ -49,9 +50,9 @@ Useful virtualenvwrapper commands:
 For most of what you'll need to do, those few
 commands are enough:
 
-* mkvirtualenv env_name -> creates the virtualenv env_name
-* workon -> lists all the virtualenvs created
-* pip list -> lists of packages installed
-* deactivate -> leaves a virtualenv
-* workon env_name -> switches to env_name virtualenv
-* rmvirtualenv env_name -> deletes the virtualenv
+* **mkvirtualenv env_name** -> creates the virtualenv env_name
+* **workon** -> lists all the virtualenvs created
+* **pip list** -> lists of packages installed
+* **deactivate** -> leaves a virtualenv
+* **workon env_name** -> switches to env_name virtualenv
+* **rmvirtualenv env_name** -> deletes the virtualenv
