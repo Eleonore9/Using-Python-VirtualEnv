@@ -1,0 +1,8 @@
+numpy>=1.9.1
+scipy>=0.14.1
+nltk>=3.0.0
+python-dateutil>=2.4.0
+matplotlib>=1.4.2
+ipython>=2.3.1
+mpltools>=0.1
+gensim>=0.10.3

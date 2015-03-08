@@ -1,0 +1,14 @@
+numpy
+pandas
+Redis
+Six
+Requests
+Tornado >= 4.0
+Werkzeug
+Greenlet
+Gevent
+Gevent-websocket
+PyZMQ
+PyYaml
+flask
+bokeh
