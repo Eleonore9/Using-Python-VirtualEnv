@@ -8,3 +8,5 @@ matplotlib>=1.4.2
 mpltools>=0.1
 
 ipython[all]
+
+xlrd
