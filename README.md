@@ -62,3 +62,12 @@ commands are enough:
 * **deactivate** -> leaves a virtualenv
 * **workon env_name** -> switches to env_name virtualenv
 * **rmvirtualenv env_name** -> deletes the virtualenv
+
+
+
+**I had to install those packages outside of a virtualenv:**
+* for numpy: ```sudo apt-get install python2.7-dev```
+* for scipy: ```sudo apt-get install libatlas-base-dev gfortran```
+
+**I had to install this outside of the requirements.txt:**
+for matplotlib (mpltools): ```pip install configobj```
