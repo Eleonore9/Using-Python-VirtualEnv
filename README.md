@@ -64,6 +64,7 @@ commands are enough:
 * **rmvirtualenv env_name** -> deletes the virtualenv
 
 
+_______________________________
 
 **I had to install those packages outside of a virtualenv:**
 * for numpy: ```sudo apt-get install python2.7-dev```
